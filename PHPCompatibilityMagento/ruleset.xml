@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="PHPCompatibilityMagento">
+    <description>Magento specific ruleset which checks for PHP cross version compatibility.</description>
+
+    <!--
+    The Magento minimum PHP requirement is PHP 7.3.0.
+    Add the following in your project PHP_CodeSniffer ruleset to enforce this:
+    <config name="testVersion" value="7.3-"/>
+
+    This directive is not included in this ruleset as individual projects may use
+    a different (higher) minimum PHP version.
+    -->
+
+    <rule ref="PHPCompatibility">
+        <!-- https://github.com/magento/magento2/.... -->
+        <!-- TODO: add Magento specific excludes with a link to the file in which they are contained. -->
+    </rule>
+
+    <!-- https://github.com/magento/magento2/blob/2.4-develop/composer.json -->
+    <rule ref="PHPCompatibilityParagonieSodiumCompat"/>
+
+</ruleset>
