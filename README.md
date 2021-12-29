@@ -31,16 +31,12 @@ This Magento specific ruleset prevents false positives from the [PHPCompatibilit
 
 The only supported installation method is via [Composer](https://getcomposer.org/).
 
-If you don't have a Composer plugin installed to manage the `installed_paths` setting for PHP_CodeSniffer, run the following from the command-line:
-```bash
-composer require --dev dealerdirect/phpcodesniffer-composer-installer:"^0.7" phpcompatibility/phpcompatibility-magento:"*"
-composer install
-```
+[Composer](http://getcomposer.org/) will automatically install the project dependencies and register the external rulesets with PHP_CodeSniffer using the [DealerDirect Composer PHPCS plugin](https://github.com/Dealerdirect/phpcodesniffer-composer-installer/).
 
-If you already have a Composer PHP_CodeSniffer plugin installed, run:
+Run the following from the root of your project:
 ```bash
-composer require --dev phpcompatibility/phpcompatibility-magento:"*"
-composer install
+composer config allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
+composer require --dev dealerdirect/phpcodesniffer-composer-installer:"^0.7" phpcompatibility/phpcompatibility-magento:"*"
 ```
 
 Next, run:
