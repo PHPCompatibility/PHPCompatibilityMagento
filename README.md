@@ -31,7 +31,7 @@ This Magento specific ruleset prevents false positives from the [PHPCompatibilit
 
 The only supported installation method is via [Composer](https://getcomposer.org/).
 
-[Composer](http://getcomposer.org/) will automatically install the project dependencies and register the external rulesets with PHP_CodeSniffer using the [DealerDirect Composer PHPCS plugin](https://github.com/Dealerdirect/phpcodesniffer-composer-installer/).
+[Composer](http://getcomposer.org/) will automatically install the project dependencies and register the external rulesets with PHP_CodeSniffer using the [Composer PHPCS plugin].
 
 Run the following from the root of your project:
 ```bash
@@ -86,4 +86,4 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ...
 
-[Composer PHPCS plugin]: https://github.com/Dealerdirect/phpcodesniffer-composer-installer/
+[Composer PHPCS plugin]: https://github.com/PHPCSStandards/composer-installer
