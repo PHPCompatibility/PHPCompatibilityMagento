@@ -2,7 +2,7 @@
   "name" : "phpcompatibility/phpcompatibility-magento",
   "description" : "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by Magento.",
   "type" : "phpcodesniffer-standard",
-  "keywords" : [ "compatibility", "phpcs", "standards", "magento" ],
+  "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "magento" ],
   "homepage" : "http://phpcompatibility.com/",
   "license" : "LGPL-3.0-or-later",
   "authors" : [
