@@ -32,7 +32,7 @@ jobs:
 
       # Install dependencies to make sure the PHPCS XSD file is available.
       - name: Install dependencies
-        run: composer install --no-dev --no-interaction --no-progress
+        run: composer install --no-interaction --no-progress
 
       - name: Setup xmllint
         run: |
