@@ -1,7 +1,7 @@
-[![Latest Stable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-magento/v/stable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-magento)
-[![Latest Unstable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-magento/v/unstable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-magento)
-[![License](https://poser.pugx.org/phpcompatibility/phpcompatibility-magento/license.png)](https://github.com/PHPCompatibility/PHPCompatibilityMagento/blob/main/LICENSE)
-[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityMagento/workflows/CI/badge.svg?branch=main)](https://github.com/PHPCompatibility/PHPCompatibilityMagento/actions)
+[![Latest Stable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-magento?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-magento)
+[![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/phpcompatibility/phpcompatibility-magento)
+[![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityMagento?color=00a7a7)](https://github.com/PHPCompatibility/PHPCompatibilityMagento/blob/main/LICENSE)
+[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityMagento/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/PHPCompatibility/PHPCompatibilityMagento/actions/workflows/ci.yml)
 
 # PHPCompatibilityMagento
 
