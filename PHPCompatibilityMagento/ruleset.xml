@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="PHPCompatibilityMagento">
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PHPCompatibilityMagento" xsi:noNamespaceSchemaLocation="https://schema.phpcodesniffer.com/phpcs.xsd">
+
     <description>Magento specific ruleset which checks for PHP cross version compatibility.</description>
 
     <!--
